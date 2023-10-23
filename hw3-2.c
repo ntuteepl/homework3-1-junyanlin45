@@ -40,9 +40,13 @@ int main() {
        a=a+1;
 
    }
-    if(d2>s3&s3<d1)
+    if(d2>s3)
    {
        a=a+1;
    }
+    if(s3>d1)
+    {
+        a=a-1
+            }
    printf("%d",a);
 }
