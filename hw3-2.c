@@ -35,16 +35,12 @@ int main() {
         (d2) = temp;
     }
 //printf("%d %d %d %d %d %d",s1,d1,s2,d2,s3,d3);
-    if(d1>s2&&s3>=d1)
-   {
-       a=a+1;
-
-   }
-    if(d2>s3&&s3>=d1)
-   {
-       a=a+1;
-       
-   }
+    if(d1>=s2)
+   a++;
+   if(d1>=s3)
+   a++;
+   if(d2>s3)
+    a++;
     
    printf("%d",a);
 }
