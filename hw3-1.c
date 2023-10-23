@@ -6,7 +6,7 @@ int main()
   int j,k=0;
   scanf("%d",&j);
 
-  for(int i=2;i<j;j++)
+  for(int i=2;i<j;i++)
   {
       if(j%i==0)
       {
@@ -17,16 +17,21 @@ int main()
 
       }
 
-       else
-      {
-          if(k==0)
+
+if(i>j/2)
+{
+   if(k==0)
           {
               printf("YES\n");
+              break;
           }
-          break;
+
+}
 
 
-      }
+
+
+
 
 
 
