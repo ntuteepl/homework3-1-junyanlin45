@@ -41,6 +41,8 @@ int main() {
    a++;
    if(d2>s3)
     a++;
+    if(a==4)
+    a--;
     
    printf("%d",a);
 }
