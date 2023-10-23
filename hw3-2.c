@@ -46,7 +46,7 @@ int main() {
    }
     if(s3>d1)
     {
-        a=a-1
+        a=a-1;
             }
    printf("%d",a);
 }
