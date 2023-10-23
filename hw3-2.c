@@ -43,7 +43,7 @@ int main() {
     if(d2>s3)
    {
        a=a+1;
-       if(s3>=d1&&d1>=s2)
+       if(s3>=d1&&d1<=s2)
        {
            a=a-1;
        }
