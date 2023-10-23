@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+#include <stdio.h>
+
 int main() {
     int answer[4];  // 存放答案的数组
     int guess[4];   // 存放猜测的数组
-    int i, j;
+    int i, j,input;
 
     // 输入答案
 
@@ -16,13 +18,26 @@ int main() {
     while (1) {
 
 
-            scanf("%1d%1d%1d%1d", &guess[0], &guess[1], &guess[2], &guess[3]);
 
-
-        if (guess[0] == 0) {
-
+          scanf("%4d", &input);
+        if (input == 0) {
             break;
         }
+
+        // 将猜测存储到数组中
+        for (i = 3; i >= 0; i--) {
+            guess[i] = input % 10;
+            input /= 10;
+        }
+
+
+
+
+
+
+
+
+
 
         int A = 0, B = 0;
 
