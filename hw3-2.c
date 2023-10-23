@@ -2,9 +2,6 @@
 #include <stdlib.h>
 
 #include <stdio.h>
-#include <stdlib.h>
-
-#include <stdio.h>
 int main() {
     int s1, d1, s2, d2, s3, d3;
     int a= 1;
@@ -43,7 +40,7 @@ int main() {
        a=a+1;
 
    }
-    if(d2>s3)
+    if(d2>s3&s3<d1)
    {
        a=a+1;
    }
