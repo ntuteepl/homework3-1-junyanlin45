@@ -35,14 +35,11 @@ int main() {
         (d2) = temp;
     }
 //printf("%d %d %d %d %d %d",s1,d1,s2,d2,s3,d3);
-    if(d1>s2)
-   a++;
-   if(d1>s3)
-   a++;
-   if(d2>s3)
+     if(s2<d1&&s3<d1)
+    a=a+2;
+   if(s2<d1&&s3>d1)
     a++;
-    if(a==4)
-    a--;
+    
     
     
    printf("%d",a);
