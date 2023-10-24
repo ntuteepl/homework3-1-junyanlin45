@@ -41,6 +41,8 @@ int main() {
     a++;
     if(s3<d2&&s3>d1)
     a++;
+    if(s2>d1&&s3<d2)
+    a++;
     
     
     
