@@ -39,11 +39,10 @@ int main() {
     a=a+2;
    if(s2<d1&&s3>d1)
     a++;
-    if(s3<d2&&s3>d1)
+   if(s3<d2&&s3>d1&&s2>d1)
     a++;
-    if(s2>d1&&s3<d2)
+   if(s2>d1&&s3<d2)
     a++;
-    
     
     
    printf("%d",a);
